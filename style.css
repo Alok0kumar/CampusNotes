@@ -16,10 +16,10 @@ body {
 }
 
 .container {
-  max-width: 900px;
+  max-width: 95%; /* ✅ flexible */
   margin: auto;
   background: #fff;
-  padding: 30px;
+  padding: 20px;
   border-radius: 12px;
   box-shadow: 5px 5px 10px rgb(114, 23, 23);
 }
@@ -28,14 +28,15 @@ h1 {
   text-align: center;
   margin-bottom: 30px;
   color: #2c3e50;
+  font-size: clamp(1.5rem, 4vw, 2.5rem); /* ✅ responsive text */
 }
 
 /* Filter Section */
 .filters {
   display: flex;
-  gap: 15px;
+  gap: 10px;
   flex-wrap: wrap;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   justify-content: center;
 }
 
@@ -46,11 +47,12 @@ h1 {
 }
 
 select {
+  flex: 1;
+  min-width: 140px;
   padding: 10px;
   font-size: 1em;
   border-radius: 6px;
   border: 1px solid #ccc;
-  min-width: 160px;
   background: #fff;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -76,7 +78,8 @@ select:focus {
   padding: 20px;
   border-left: 6px solid #667eea;
   border-radius: 10px;
-  width: 260px;
+  flex: 1 1 280px;   /* ✅ responsive card */
+  max-width: 320px;
   box-shadow: 0 3px 10px rgba(0,0,0,0.1);
   transition: transform 0.25s, box-shadow 0.25s;
 }
@@ -119,19 +122,37 @@ select:focus {
 /* Footer */
 footer {
   margin-top: 40px;
-  margin-right: 180px;
-  margin-left: 180px;
   text-align: center;
-  align-items: center;
   padding: 15px;
   background: rgba(255,255,255,0.9);
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  font-size: clamp(0.8rem, 2vw, 1rem); /* ✅ responsive */
 }
 
 footer p {
   margin: 0;
-  font-size: 0.95em;
   color: #2c3e50;
   font-weight: 600;
+}
+
+/* ✅ Extra tweaks for small screens */
+@media (max-width: 600px) {
+  .filters {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  select {
+    width: 100%;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  footer {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
