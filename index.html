@@ -3,40 +3,52 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>College Notes Hub</title>
+  <title>CampusNotes</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
   <div class="container">
-    <h1>📚 College Material Sharing Portal</h1>
+    <h1>CampusNotes</h1>
 
+    <!-- Filters Section -->
     <div class="filters">
+      <label for="yearSelect">Year:</label>
       <select id="yearSelect">
         <option value="">Select Year</option>
         <option value="1st Year">1st Year</option>
         <option value="2nd Year">2nd Year</option>
         <option value="3rd Year">3rd Year</option>
-        <option value="4th Year">4th Year</option>
+        
       </select>
 
+      <label for="branchSelect">Branch:</label>
       <select id="branchSelect">
         <option value="">Select Branch</option>
         <option value="CSE">CSE</option>
         <option value="ECE">ECE</option>
-        <option value="MECH">MECH</option>
-        <option value="CIVIL">CIVIL</option>
+        
+        
+        <option value="IT">IT</option>
       </select>
 
+      <label for="subjectSelect">Subject:</label>
       <select id="subjectSelect">
         <option value="">Select Subject</option>
-        <!-- Subjects will populate dynamically -->
+        <!-- Subjects populate dynamically -->
       </select>
     </div>
 
+    <!-- Materials Display -->
     <div id="materialList" class="materials"></div>
   </div>
 
+  <!-- Footer -->
+  <footer>
+    <p>These are official materials which have been made by NIET faculties.</p>
+  </footer>
+
+  <!-- Link to Script -->
   <script src="script.js"></script>
 </body>
 </html>
