@@ -2,13 +2,11 @@ body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
   padding: 20px;
-  /* 🌈 Premium Gradient Background */
   background: linear-gradient(135deg, #667eea, #764ba2, #ff6a88, #ffb347);
   background-size: 400% 400%;
   animation: gradientBG 15s ease infinite;
 }
 
-/* Gradient Animation */
 @keyframes gradientBG {
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
@@ -16,22 +14,45 @@ body {
 }
 
 .container {
-  max-width: 95%; /* ✅ flexible */
+  max-width: 95%;
   margin: auto;
   background: #fff;
   padding: 20px;
   border-radius: 12px;
   box-shadow: 5px 5px 10px rgb(114, 23, 23);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+
+.update{
+    height: 35px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    background: #fffae6;
+    border: 2px solid #ffecb3;
+    padding-top: 4px;
+    padding-left: 8px;
+    padding-bottom: 4px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    font-size: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: #8e8202;
+
 }
 
 h1 {
   text-align: center;
   margin-bottom: 30px;
   color: #2c3e50;
-  font-size: clamp(1.5rem, 4vw, 2.5rem); /* ✅ responsive text */
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
 }
 
-/* Filter Section */
 .filters {
   display: flex;
   gap: 10px;
@@ -64,7 +85,30 @@ select:focus {
   box-shadow: 0 0 6px rgba(118,75,162,0.4);
 }
 
-/* Materials Section */
+/* Action Buttons */
+.actions {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.actions button {
+  padding: 10px 16px;
+  background: linear-gradient(90deg, #667eea, #764ba2);
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.actions button:hover {
+  background: linear-gradient(90deg, #ff6a88, #ffb347);
+  transform: scale(1.05);
+}
+
 .materials {
   display: flex;
   flex-wrap: wrap;
@@ -72,13 +116,12 @@ select:focus {
   justify-content: center;
 }
 
-/* Card Styling */
 .card {
   background: #fdfdfd;
   padding: 20px;
   border-left: 6px solid #667eea;
   border-radius: 10px;
-  flex: 1 1 280px;   /* ✅ responsive card */
+  flex: 1 1 280px;
   max-width: 320px;
   box-shadow: 0 3px 10px rgba(0,0,0,0.1);
   transition: transform 0.25s, box-shadow 0.25s;
@@ -101,7 +144,6 @@ select:focus {
   color: #555;
 }
 
-/* Download Button */
 .card a {
   display: inline-block;
   padding: 8px 12px;
@@ -119,7 +161,6 @@ select:focus {
   transform: scale(1.05);
 }
 
-/* Footer */
 footer {
   margin-top: 40px;
   text-align: center;
@@ -127,7 +168,7 @@ footer {
   background: rgba(255,255,255,0.9);
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  font-size: clamp(0.8rem, 2vw, 1rem); /* ✅ responsive */
+  font-size: clamp(0.8rem, 2vw, 1rem);
 }
 
 footer p {
@@ -136,23 +177,15 @@ footer p {
   font-weight: 600;
 }
 
-/* ✅ Extra tweaks for small screens */
 @media (max-width: 600px) {
   .filters {
     flex-direction: column;
     align-items: stretch;
   }
-
   select {
     width: 100%;
   }
-
   .card {
     width: 100%;
-  }
-
-  footer {
-    margin-left: 0;
-    margin-right: 0;
   }
 }
