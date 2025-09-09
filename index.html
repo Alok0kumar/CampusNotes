@@ -4,12 +4,16 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>CampusNotes</title>
+  <div class="update">
+    <h2>Update: now you can download the PYQs</h2>
+  </div>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
   <div class="container">
     <h1>CampusNotes</h1>
+    
 
     <!-- Filters Section -->
     <div class="filters">
@@ -19,7 +23,6 @@
         <option value="1st Year">1st Year</option>
         <option value="2nd Year">2nd Year</option>
         <option value="3rd Year">3rd Year</option>
-        
       </select>
 
       <label for="branchSelect">Branch:</label>
@@ -27,28 +30,39 @@
         <option value="">Select Branch</option>
         <option value="CSE">CSE</option>
         <option value="ECE">ECE</option>
-        
-        
         <option value="IT">IT</option>
       </select>
 
       <label for="subjectSelect">Subject:</label>
       <select id="subjectSelect">
         <option value="">Select Subject</option>
-        <!-- Subjects populate dynamically -->
       </select>
     </div>
 
-    <!-- Materials Display -->
+    <!-- Action Buttons -->
+    <div id="actionButtons" class="actions"></div>
+
+    <!-- Semester Filter -->
+    <div id="semesterSection" class="filters" style="display:none;">
+      <label for="semesterSelect">Semester:</label>
+      <select id="semesterSelect">
+        <option value="">Select Semester</option>
+        <option value="Sem 1">Sem 1</option>
+        <option value="Sem 2">Sem 2</option>
+        <option value="Sem 3">Sem 3</option>
+        <option value="Sem 4">Sem 4</option>
+      </select>
+    </div>
+
+    <!-- Materials / PYQs Display -->
     <div id="materialList" class="materials"></div>
   </div>
 
   <!-- Footer -->
   <footer>
-    <p>These are official materials which have been made by NIET faculties.</p>
+    <p>“These materials have been officially prepared by NIET faculties.”</p>
   </footer>
 
-  <!-- Link to Script -->
   <script src="script.js"></script>
 </body>
 </html>
