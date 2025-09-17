@@ -24,6 +24,7 @@ const materials = [
     title: "Unit-1",
     faculty: "Ms. Kumari Kajal Kishore",
     link: "https://drive.google.com/file/d/14hmSP69f74lurfInC2DgFBVFR9-1aNSl/view?usp=sharing"
+    
   },
   {
     year: "2nd Year",
@@ -121,6 +122,15 @@ const pyqs = [
     link:"https://drive.google.com/file/d/1U4Hu6GN43gFs6OqcdUS6X6vWfZLMudzQ/view?usp=sharing"
   },
   {
+    year: "1st Year", 
+    branch: "IT",
+    subject: "Engineering Physics",
+    semester: "Sem 1",
+    title: "Eng. Physics-BAS0101AZ",
+    session: "2024-25",
+    link:"https://drive.google.com/file/d/1SEIlqaeZQWX1_e7oT8ON2zR1eTds57RN/view?usp=drive_link"
+  },
+  {
     year: "1st Year",
     branch: "IT",
     subject: "Engineering Mathematics",
@@ -128,16 +138,8 @@ const pyqs = [
     title: "Eng. Maths-BAS0103",
     session: "2024-25",
     link: "https://drive.google.com/file/d/1iBLeBkf6c9zjPZsQQCHY8n4vyFKDfmAp/view?usp=drive_link"
+
   },
-  {
-    year: "1st Year",
-    branch: "IT",
-    subject: "Engineering Physics",
-    semester: "Sem 1",
-    title: "Eng. Physics-BAS0101AZ",
-    session: "2024-25",
-    link: "https://drive.google.com/file/d/1SEIlqaeZQWX1_e7oT8ON2zR1eTds57RN/view?usp=drive_link"
-   },
   {
     year: "1st Year",
     branch: "IT",
@@ -162,10 +164,9 @@ const pyqs = [
     subject: "Japanese",
     semester: "Sem 1",
     title: "BASL0104-Japnese",
+    session: "2024-25",
     link: "https://drive.google.com/file/d/1x7MyLgs8IOVl2-1f9xXoaqgrIC1NoPt1/view?usp=drive_link"
   }
-  
-  
 ];
 
 // ---------- Elements ----------
@@ -249,7 +250,8 @@ function displayPYQs() {
     filtered = pyqs.filter(item =>
       item.year === year &&
       item.branch === branch &&
-      item.semester === semester
+      item.semester === semester 
+      
     );
   } else {
     filtered = pyqs.filter(item =>
@@ -346,9 +348,11 @@ subjectSelect.addEventListener("change", () => {
     const matBtn = document.createElement("button");
     matBtn.textContent = "View Material";
     matBtn.onclick = displayMaterials;
+    // actionButtons.appendChild(matBtn);
     actionButtons.appendChild(matBtn);
+    actionButtons.appendChild(matBtn);
+    actionButtons.appendChild(matbutton.Ch)
   }
 });
 
 document.getElementById("semesterSelect").addEventListener("change", displayPYQs);
-
