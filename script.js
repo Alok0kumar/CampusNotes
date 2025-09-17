@@ -119,7 +119,52 @@ const pyqs = [
     title: "OS-BNC0302",
     session: "2024-25",
     link:"https://drive.google.com/file/d/1U4Hu6GN43gFs6OqcdUS6X6vWfZLMudzQ/view?usp=sharing"
+  },
+  {
+    year: "1st Year",
+    branch: "IT",
+    subject: "Engineering Mathematics",
+    semester: "Sem 1",
+    title: "Eng. Maths-BAS0103",
+    session: "2024-25",
+    link: "https://drive.google.com/file/d/1iBLeBkf6c9zjPZsQQCHY8n4vyFKDfmAp/view?usp=drive_link"
+  },
+  {
+    year: "1st Year",
+    branch: "IT",
+    subject: "Engineering Physics",
+    semester: "Sem 1",
+    title: "Eng. Physics-BAS0101AZ",
+    session: "2024-25",
+    link: "https://drive.google.com/file/d/1SEIlqaeZQWX1_e7oT8ON2zR1eTds57RN/view?usp=drive_link"
+   },
+  {
+    year: "1st Year",
+    branch: "IT",
+    subject: "German",
+    semester: "Sem 1",
+    title: "BASL0103-German",
+    session: "2024-25",
+    link: "https://drive.google.com/file/d/1FygQsHHYLeyzo-GpOwBmsmCAmXs5Ce0K/view?usp=drive_link"
+  },
+  {
+    year: "1st Year",
+    branch: "IT",
+    subject: "French",
+    semester: "Sem 1",
+    title: "BASL0102-French",
+    session: "2024-25",
+    link: "https://drive.google.com/file/d/1vWdQRDOstBD2hesXgFjQ92GD5n4bEI-m/view?usp=drive_link"
+  },
+  {
+    year: "1st Year",
+    branch: "IT",
+    subject: "Japanese",
+    semester: "Sem 1",
+    title: "BASL0104-Japnese",
+    link: "https://drive.google.com/file/d/1x7MyLgs8IOVl2-1f9xXoaqgrIC1NoPt1/view?usp=drive_link"
   }
+  
   
 ];
 
@@ -306,3 +351,4 @@ subjectSelect.addEventListener("change", () => {
 });
 
 document.getElementById("semesterSelect").addEventListener("change", displayPYQs);
+
