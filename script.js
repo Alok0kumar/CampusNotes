@@ -356,3 +356,4 @@ subjectSelect.addEventListener("change", () => {
 });
 
 document.getElementById("semesterSelect").addEventListener("change", displayPYQs);
+
