@@ -2,7 +2,7 @@ body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
   padding: 20px;
-  background: linear-gradient(135deg, #667eea, #764ba2, #ff6a88, #ffb347);
+  background: linear-gradient(135deg, #66ea96, #a24b69, #e59e06, #ffb347);
   background-size: 400% 400%;
   animation: gradientBG 15s ease infinite;
 }
@@ -31,6 +31,7 @@ body {
     align-items: center;
     background: #fffae6;
     border: 2px solid #ffecb3;
+    margin-left: 20px;
     padding-top: 4px;
     padding-left: 8px;
     padding-bottom: 4px;
@@ -43,7 +44,19 @@ body {
     font-weight: bold;
     font-style: italic;
     color: #8e8202;
+    
 
+}
+
+.note{
+    margin-top: 10px;
+    font-size: 14px;
+    padding-top: 10px ;
+    color: #555;
+    font-style: none;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h1 {
@@ -188,4 +201,68 @@ footer p {
   .card {
     width: 100%;
   }
+}
+@media (max-width: 500px) {
+  footer {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  footer img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+
+footer {
+  box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+   background-color: rgba(255, 255, 255, 0.1);
+   backdrop-filter: blur(30px);
+   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+   z-index: 1000;
+   align-items: left;
+   padding: 10px 20px;
+   border-radius: 20px;
+   height: 55px;
+
+    width: auto;
+   justify-content: center;
+   color: white;
+   text-align: center;
+   padding: 20px;
+   position: fixed ;
+  margin-left: 50%;
+  transform: translateX(-50%)
+  
+  
+}
+
+
+footer .social-links a {
+  color: black  ;           /* blue color for icons */
+  margin: 0 15px;           /* spacing between icons */
+  font-size: 20px;          /* icon size */
+  transition: color 0.2s;   /* smooth hover effect */
+}
+
+footer .social-links a:hover {
+  color: skyblue;           /* orange when hovered */
+}
+.social-links a {
+  text-decoration: none;  /* removes underline */
+  color: inherit;         /* optional, so text color matches footer text */
+}
+
+#Link{
+  width: 31px;
+  height: 30px;
+  padding-top: 12px;
+  
+}
+#git{
+  width: 30px;
+  height: 30px;
+  padding-top: 12px;
 }
