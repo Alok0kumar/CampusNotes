@@ -97,6 +97,22 @@ const materials = [
     title: "Unit-3",
     faculty: "Not Available",
     link: "https://drive.google.com/file/d/1p9TVlJUq0a4TWhDM1eWOWhnyOE7jh779/view?usp=drive_link"
+  },
+  {
+    year: "2nd Year",
+    branch: "IT",
+    subject: "Operating System",
+    title: "Unit-3",
+    faculty: "Mr. Atul Garg",
+    link: "https://drive.google.com/file/d/1qF8hPjv07gYlZCYTGiQpv0t4O-myEdrw/view?usp=sharing"
+  },
+  {
+    year: "2nd Year",
+    branch: "IT",
+    subject: "AICE",
+    title: "Unit-3",
+    faculty: "Mr. Shravan Kumar Yadav",
+    link: "https://drive.google.com/file/d/1u4e4x8Bm8nl_GN7FHmT08JYNVH6kwUtu/view?usp=drive_link"
   }
 ];
 
