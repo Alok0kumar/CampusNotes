@@ -129,6 +129,14 @@ const materials = [
     title: "Unit-3",
     faculty: "Amba Mishra",
     link: "https://drive.google.com/file/d/1OstvOX8qAB_U1LvS4-oNQu9IQnuv5J-m/view?usp=sharing"
+  },
+  {
+    year: "2nd Year",
+    branch: "IT",
+    subject: "CAPP",  
+    title: "Unit-3",
+    faculty: " Dr. Sarabjeet Kaur",
+    link: "https://drive.google.com/file/d/1ScG5kDiLH3vTVHvdvpr13sgLIKwDDXo0/view?usp=sharing"
   }
 ];
 
