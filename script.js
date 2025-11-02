@@ -113,6 +113,22 @@ const materials = [
     title: "Unit-3",
     faculty: "Mr. Shravan Kumar Yadav",
     link: "https://drive.google.com/file/d/1u4e4x8Bm8nl_GN7FHmT08JYNVH6kwUtu/view?usp=drive_link"
+  },
+  {
+    year: "2nd Year",
+    branch: "IT",
+    subject: "Artificial Intelligence",
+    title: "Unit-3",
+    faculty: "Ahmad Nafis",
+    link: "https://drive.google.com/file/d/1NglO-Whbt0lSjQcrkA3IZwozMCUwWsC3/view?usp=drive_link"
+  },
+   {
+    year: "2nd Year",
+    branch: "IT",
+    subject: "DSA",
+    title: "Unit-3",
+    faculty: "Amba Mishra",
+    link: "https://drive.google.com/file/d/1OstvOX8qAB_U1LvS4-oNQu9IQnuv5J-m/view?usp=sharing"
   }
 ];
 
