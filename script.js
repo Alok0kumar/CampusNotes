@@ -196,6 +196,15 @@ const pyqs = [
     link: " https://drive.google.com/file/d/1PJOazS_kO6KjJ3IZgyyHFTwIUvnXeVtJ/view?usp=sharing "
   },
   {
+   year: "2nd Year",
+    branch: "IT",
+    subject: "CAPP",
+    semester: "Sem 3",
+    title: "CAPP-BCSE0305 / BCSEH0305",
+    session: "2024-25",
+    link: " https://drive.google.com/file/d/1eDOeiJCtAClVNFKl5g94LEXhrKvdwbO9/view?usp=sharing"
+  },
+  {
     year: "1st Year", 
     branch: "IT",
     subject: "Engineering Physics",
