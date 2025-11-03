@@ -122,6 +122,24 @@ const pyqs = [
     link:"https://drive.google.com/file/d/1U4Hu6GN43gFs6OqcdUS6X6vWfZLMudzQ/view?usp=sharing"
   },
   {
+    year: "2nd Year",
+    branch: "IT",
+    subject: "DSA",
+    semester: "Sem 3",
+    title: "DSA-BCSE0301",
+    session: "2024-25",
+    link: "https://drive.google.com/file/d/1m95MgYOzHL5EbX9bINxknTCg_LgyvROb/view?usp=sharing"
+  },
+  {
+    year: "2nd Year",
+    branch: "IT",
+    subject: "CAPP/COA",
+    semester: "Sem 3",
+    title: "CAPP-BCSBS0303",
+    session: "2024-25",
+    link: " https://drive.google.com/file/d/1PJOazS_kO6KjJ3IZgyyHFTwIUvnXeVtJ/view?usp=sharing "
+  },
+  {
     year: "1st Year", 
     branch: "IT",
     subject: "Engineering Physics",
