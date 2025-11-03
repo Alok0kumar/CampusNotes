@@ -133,7 +133,7 @@ const pyqs = [
   {
     year: "2nd Year",
     branch: "IT",
-    subject: "CAPP/COA",
+    subject: "CAPP",
     semester: "Sem 3",
     title: "CAPP-BCSBS0303",
     session: "2024-25",
