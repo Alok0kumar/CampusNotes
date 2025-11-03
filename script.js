@@ -1,6 +1,8 @@
 // ---------- Materials dataset (original data preserved) ----------
 const materials = [
   // 2nd Year - btech IT materials
+
+  //Artificial Intelligence Units
   {
     year: "2nd Year",
     branch: "IT",
@@ -17,6 +19,15 @@ const materials = [
     faculty: "Roshni Prasad",
     link: "https://drive.google.com/file/d/1MclKwdqaw8y6Y8dUIOcp6vPlwFO4nLBs/view?usp=sharing"
   },
+  {
+    year: "2nd Year",
+    branch: "IT",
+    subject: "Artificial Intelligence",
+    title: "Unit-3",
+    faculty: "Ahmad Nafis",
+    link: "https://drive.google.com/file/d/1NglO-Whbt0lSjQcrkA3IZwozMCUwWsC3/view?usp=drive_link"
+  },
+  //AICE Units
   {
     year: "2nd Year",
     branch: "IT",
@@ -37,6 +48,15 @@ const materials = [
   {
     year: "2nd Year",
     branch: "IT",
+    subject: "AICE",
+    title: "Unit-3",
+    faculty: "Mr. Shravan Kumar Yadav",
+    link: "https://drive.google.com/file/d/1u4e4x8Bm8nl_GN7FHmT08JYNVH6kwUtu/view?usp=drive_link"
+  },
+  //CAPP units
+  {
+    year: "2nd Year",
+    branch: "IT",
     subject: "CAPP",
     title: "Unit-1",
     faculty: "Ankur Kumar Varshney",
@@ -50,6 +70,15 @@ const materials = [
     faculty: "Dr. Ankita Rani",
     link: "https://drive.google.com/file/d/10CRoHIkT_OekP2qmvr3erXLtpnDtQNJz/view?usp=sharing"
   },
+  {
+    year: "2nd Year",
+    branch: "IT",
+    subject: "CAPP",  
+    title: "Unit-3",
+    faculty: " Dr. Sarabjeet Kaur",
+    link: "https://drive.google.com/file/d/1ScG5kDiLH3vTVHvdvpr13sgLIKwDDXo0/view?usp=sharing"
+  },
+  // DSA units
   {
     year: "2nd Year",
     branch: "IT",
@@ -69,11 +98,37 @@ const materials = [
   {
     year: "2nd Year",
     branch: "IT",
+    subject: "DSA",
+    title: "Unit-3",
+    faculty: "Amba Mishra",
+    link: "https://drive.google.com/file/d/1OstvOX8qAB_U1LvS4-oNQu9IQnuv5J-m/view?usp=sharing"
+  },
+  // OS units
+  {
+    year: "2nd Year",
+    branch: "IT",
     subject: "Operating System",
     title: "Unit-1",
     faculty: "Mr. Atul Garg",
     link: "https://drive.google.com/file/d/1lsD19I_X9UlsdaiT19e5E-ulGoHnVFWA/view?usp=sharing"
   },
+   {
+    year: "2nd Year",
+    branch: "IT",
+    subject: "Operating System",
+    title: "Unit-2",
+    faculty: "RAJEEV KUMAR",
+    link: "https://drive.google.com/file/d/1HrWAsEFFXFgSwr9gHkj8IOwV1T2zpV5J/view?usp=sharing"
+  },
+  {
+    year: "2nd Year",
+    branch: "IT",
+    subject: "Operating System",
+    title: "Unit-3",
+    faculty: "Mr. Atul Garg",
+    link: "https://drive.google.com/file/d/1qF8hPjv07gYlZCYTGiQpv0t4O-myEdrw/view?usp=sharing"
+  },
+  // Technical communication units
   {
     year: "2nd Year",
     branch: "IT",
@@ -98,46 +153,7 @@ const materials = [
     faculty: "Not Available",
     link: "https://drive.google.com/file/d/1p9TVlJUq0a4TWhDM1eWOWhnyOE7jh779/view?usp=drive_link"
   },
-  {
-    year: "2nd Year",
-    branch: "IT",
-    subject: "Operating System",
-    title: "Unit-3",
-    faculty: "Mr. Atul Garg",
-    link: "https://drive.google.com/file/d/1qF8hPjv07gYlZCYTGiQpv0t4O-myEdrw/view?usp=sharing"
-  },
-  {
-    year: "2nd Year",
-    branch: "IT",
-    subject: "AICE",
-    title: "Unit-3",
-    faculty: "Mr. Shravan Kumar Yadav",
-    link: "https://drive.google.com/file/d/1u4e4x8Bm8nl_GN7FHmT08JYNVH6kwUtu/view?usp=drive_link"
-  },
-  {
-    year: "2nd Year",
-    branch: "IT",
-    subject: "Artificial Intelligence",
-    title: "Unit-3",
-    faculty: "Ahmad Nafis",
-    link: "https://drive.google.com/file/d/1NglO-Whbt0lSjQcrkA3IZwozMCUwWsC3/view?usp=drive_link"
-  },
-   {
-    year: "2nd Year",
-    branch: "IT",
-    subject: "DSA",
-    title: "Unit-3",
-    faculty: "Amba Mishra",
-    link: "https://drive.google.com/file/d/1OstvOX8qAB_U1LvS4-oNQu9IQnuv5J-m/view?usp=sharing"
-  },
-  {
-    year: "2nd Year",
-    branch: "IT",
-    subject: "CAPP",  
-    title: "Unit-3",
-    faculty: " Dr. Sarabjeet Kaur",
-    link: "https://drive.google.com/file/d/1ScG5kDiLH3vTVHvdvpr13sgLIKwDDXo0/view?usp=sharing"
-  }
+
 ];
 
 // ---------- PYQ dataset (you can expand with real data) ----------
