@@ -27,6 +27,15 @@ const materials = [
     faculty: "Ahmad Nafis",
     link: "https://drive.google.com/file/d/1NglO-Whbt0lSjQcrkA3IZwozMCUwWsC3/view?usp=drive_link"
   },
+  {
+    year: "2nd Year",
+    branch: "IT",
+    subject: "Artificial Intelligence",
+    title: "Unit-4",
+    faculty: "Dr. Rajeev Kumar",
+    link: "https://drive.google.com/file/d/1eAmoxai6e6Hp6jcdfeG72nnkNecyX9Jo/view?usp=sharing"
+
+  },
   //AICE Units
   {
     year: "2nd Year",
