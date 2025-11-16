@@ -146,6 +146,23 @@ const materials = [
     faculty: "Mr. Atul Garg",
     link: "https://drive.google.com/file/d/1qF8hPjv07gYlZCYTGiQpv0t4O-myEdrw/view?usp=sharing"
   },
+  {
+    year: "2nd Year",
+    branch: "IT",
+    subject: "Operating System",
+    title: "Unit-4",
+    faculty: "Mr. Minhaj Nezami",
+    link: "https://drive.google.com/file/d/1GGyCdlaHdE8xna4b0onSwNF-ikR9QVY_/view?usp=sharing"
+  },
+  {
+    year: "2nd Year",
+    branch: "IT", 
+    subject: "Operating System",
+    title: "Unit-5",
+    faculty:"MS. DEEPA SONI",
+    link: " https://drive.google.com/file/d/1lpqZXU7aHSy4L77Hg5RKsf9J6ETLXl68/view?usp=sharing"
+
+  },
   // Technical communication units
   {
     year: "2nd Year",
