@@ -57,7 +57,7 @@ body {
   overflow: hidden;              /* hide chars until "typed" */
   white-space: nowrap;           /* single line for typing effect */
   width: 0;                      /* start hidden for typing animation */
-  font-size: 17px;
+  font-size: 16px;
   line-height: inherit;
   text-align: center;
   margin-top: 6px;
