@@ -43,7 +43,7 @@ body {
   line-height: 1.2;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: bold;
-  font-style: italic;
+  font-style: default;
   color: #8e8202;
   white-space: normal;
   word-wrap: break-word;
