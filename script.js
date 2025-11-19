@@ -148,6 +148,15 @@ const materials = [
     link: "https://drive.google.com/file/d/1kMNFCK5To3U09UggNaSZ2UzyztWG3vPl/view?usp=sharing"
 
   },
+  {
+    year: "2nd Year",
+    branch: "IT",
+    subject: "DSA",
+    title: "Unit-5",
+    faculty: "Mr. Shravan Kumar Yadav",
+    link: "https://drive.google.com/file/d/1YmH_Tu1wzXITMu0wHmPzLSGUAFEa_DYk/view?usp=sharing"
+
+  },
   // OS units
   {
     year: "2nd Year",
