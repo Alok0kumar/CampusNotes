@@ -224,6 +224,25 @@ const materials = [
     faculty: "Not Available",
     link: "https://drive.google.com/file/d/1p9TVlJUq0a4TWhDM1eWOWhnyOE7jh779/view?usp=drive_link"
   },
+  {
+    year: "2nd Year",
+    branch: "IT",
+    subject: "Technical Communication",
+    title: "Unit-4",
+    faculty: "Not Available",
+    link: "https://drive.google.com/file/d/1t9wDJZGqdv0yrrJ1OmaC2Vip33fImQoP/view?usp=sharing"
+
+
+  },
+  {
+    year: "2nd Year",
+    branch: "IT",
+    subject: "Technical Communication",
+    title: "Unit-5",
+    faculty: "Not Available",
+    link : "https://drive.google.com/file/d/1VdThvfKpSrs5ydeojCJk-MEuujipFkjw/view?usp=sharing"
+
+  },
 
 ];
 
