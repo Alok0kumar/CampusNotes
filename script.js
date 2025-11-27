@@ -258,7 +258,26 @@ const pyqs = [
     session: "2024-25",
     link: "https://drive.google.com/file/d/1fsy0Qoy45VI28P9G020zcunmLPFkWfPI/view?usp=sharing"
   },
+   {
+    year: "2nd Year",
+    branch: "IT",
+    subject: "Operating System",
+    semester: "Sem 3",
+    title: "ACSE0403A",
+    session: "2021-22",
+    link: "https://drive.google.com/file/d/1sAiGgZjtJRMTo0vx7y6zrrKVbamUCogV/view?usp=sharing",
+
+  },
   {
+    year: "2nd year",
+    branch: "IT",
+    subject: "Operating System",
+    semester: "Sem 3",
+    title: "ACSE0403B",
+    session: "2022-23",
+    link: "https://drive.google.com/file/d/19TqLpB2Q1E2SgUko787J5SUr3dO0xZwf/view?usp=sharing"
+  },
+   {
     year: "2nd Year",
     branch: "IT",
     subject: "Operating System",
