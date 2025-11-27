@@ -269,7 +269,7 @@ const pyqs = [
 
   },
   {
-    year: "2nd year",
+    year: "2nd Year",
     branch: "IT",
     subject: "Operating System",
     semester: "Sem 3",
