@@ -249,34 +249,34 @@ const materials = [
     subject: "Technical Communication",
     title: "Unit-1 PPT",
     faculty: "Not Available",
+    link: "https://drive.google.com/file/d/1_bvNTYWZg6kOCyaMKQNOPiBNNz7WzUru/view?usp=sharing"
+  },
+  {
+    year: "2nd Year",
+    branch: "IT",
+    subject: "Technical Communication",
+    title: "Unit-2 PPT ",
+    faculty: "Not Available",
+    link: "https://drive.google.com/file/d/1xqUf5h6rcSC9zP1YUwIbdYwCalxCju9k/view?usp=sharing"
+  },
+  {
+    year: "2nd Year",
+    branch: "IT",
+    subject: "Technical Communication",
+    title: "Unit-3 PPT",
+    faculty: "Not Available",
     link: "https://drive.google.com/file/d/1OCiESUUW_WyFF8pscrgkMMktmtOKiGmQ/view?usp=sharing"
   },
-  // {
-  //   year: "2nd Year",
-  //   branch: "IT",
-  //   subject: "Technical Communication",
-  //   title: "Unit-2 PPT ",
-  //   faculty: "Not Available",
-  //   // link: "https://drive.google.com/file/d/1OCiESUUW_WyFF8pscrgkMMktmtOKiGmQ/view?usp=sharing"
-  // },
-  // {
-  //   year: "2nd Year",
-  //   branch: "IT",
-  //   subject: "Technical Communication",
-  //   title: "Unit-3 PPT",
-  //   faculty: "Not Available",
-  //   // link: "https://drive.google.com/file/d/1OCiESUUW_WyFF8pscrgkMMktmtOKiGmQ/view?usp=sharing"
-  // },
-  // {
-  //   year: "2nd Year",
-  //   branch: "IT",
-  //   subject: "Technical Communication",
-  //   title: "Unit-4 PPT",
-  //   faculty: "Not Available",
-  //   // link: "https://drive.google.com/file/d/1OCiESUUW_WyFF8pscrgkMMktmtOKiGmQ/view?usp=sharing"
+  {
+    year: "2nd Year",
+    branch: "IT",
+    subject: "Technical Communication",
+    title: "Unit-4 PPT",
+    faculty: "Not Available",
+    link: "https://drive.google.com/file/d/1i9jzFzNZJix1mzPHxOgWQfi3axNB79Cs/view?usp=sharing"
 
 
-  // },
+  },
   
 
 ];
