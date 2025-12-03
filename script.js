@@ -148,6 +148,15 @@ const materials = [
     link: "https://drive.google.com/file/d/1kMNFCK5To3U09UggNaSZ2UzyztWG3vPl/view?usp=sharing"
 
   },
+  {
+    year: "2nd Year",
+    branch: "IT",
+    subject: "DSA",
+    title: "Unit-5",
+    faculty: "Mr. Shravan Kumar Yadav",
+    link: "https://drive.google.com/file/d/1YmH_Tu1wzXITMu0wHmPzLSGUAFEa_DYk/view?usp=sharing"
+
+  },
   // OS units
   {
     year: "2nd Year",
@@ -195,7 +204,7 @@ const materials = [
     year: "2nd Year",
     branch: "IT",
     subject: "Technical Communication",
-    title: "Unit-1",
+    title: "Unit-1 Notes",
     faculty: "Not Available",
     link: "https://drive.google.com/file/d/1VFCGqmEVDKvcbLWyjuJDM4At6puxwdXB/view?usp=drive_link"
   },
@@ -203,7 +212,7 @@ const materials = [
     year: "2nd Year",
     branch: "IT",
     subject: "Technical Communication",
-    title: "Unit-2",
+    title: "Unit-2 Notes",
     faculty: "Not Available",
     link: "https://drive.google.com/file/d/1K5UOi_wOaNVuzL67JbU6BR1Iuc4vOhtD/view?usp=drive_link"
   },
@@ -211,10 +220,64 @@ const materials = [
     year: "2nd Year",
     branch: "IT",
     subject: "Technical Communication",
-    title: "Unit-3",
+    title: "Unit-3 Notes",
     faculty: "Not Available",
     link: "https://drive.google.com/file/d/1p9TVlJUq0a4TWhDM1eWOWhnyOE7jh779/view?usp=drive_link"
   },
+  {
+    year: "2nd Year",
+    branch: "IT",
+    subject: "Technical Communication",
+    title: "Unit-4 Notes",
+    faculty: "Not Available",
+    link: "https://drive.google.com/file/d/1t9wDJZGqdv0yrrJ1OmaC2Vip33fImQoP/view?usp=sharing"
+
+
+  },
+  {
+    year: "2nd Year",
+    branch: "IT",
+    subject: "Technical Communication",
+    title: "Unit-5 Notes",
+    faculty: "Not Available",
+    link : "https://drive.google.com/file/d/1VdThvfKpSrs5ydeojCJk-MEuujipFkjw/view?usp=sharing"
+
+  },
+  {
+    year: "2nd Year",
+    branch: "IT",
+    subject: "Technical Communication",
+    title: "Unit-1 PPT",
+    faculty: "Not Available",
+    link: "https://drive.google.com/file/d/1OCiESUUW_WyFF8pscrgkMMktmtOKiGmQ/view?usp=sharing"
+  },
+  {
+    year: "2nd Year",
+    branch: "IT",
+    subject: "Technical Communication",
+    title: "Unit-2 PPT ",
+    faculty: "Not Available",
+    link: "https://drive.google.com/file/d/1OCiESUUW_WyFF8pscrgkMMktmtOKiGmQ/view?usp=sharing"
+  },
+  {
+    year: "2nd Year",
+    branch: "IT",
+    subject: "Technical Communication",
+    title: "Unit-3 PPT",
+    faculty: "Not Available",
+    link: "https://drive.google.com/file/d/1OCiESUUW_WyFF8pscrgkMMktmtOKiGmQ/view?usp=sharing"
+  },
+  {
+    year: "2nd Year",
+    branch: "IT",
+    subject: "Technical Communication",
+    title: "Unit-4 PPT",
+    faculty: "Not Available",
+    link: "https://drive.google.com/file/d/1OCiESUUW_WyFF8pscrgkMMktmtOKiGmQ/view?usp=sharing"
+
+
+  },
+  
 
 ];
 
@@ -230,7 +293,26 @@ const pyqs = [
     session: "2024-25",
     link: "https://drive.google.com/file/d/1fsy0Qoy45VI28P9G020zcunmLPFkWfPI/view?usp=sharing"
   },
+   {
+    year: "2nd Year",
+    branch: "IT",
+    subject: "Operating System",
+    semester: "Sem 3",
+    title: "ACSE0403A",
+    session: "2021-22",
+    link: "https://drive.google.com/file/d/1sAiGgZjtJRMTo0vx7y6zrrKVbamUCogV/view?usp=sharing",
+
+  },
   {
+    year: "2nd Year",
+    branch: "IT",
+    subject: "Operating System",
+    semester: "Sem 3",
+    title: "ACSE0403B",
+    session: "2022-23",
+    link: "https://drive.google.com/file/d/19TqLpB2Q1E2SgUko787J5SUr3dO0xZwf/view?usp=sharing"
+  },
+   {
     year: "2nd Year",
     branch: "IT",
     subject: "Operating System",
