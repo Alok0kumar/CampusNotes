@@ -204,7 +204,7 @@ const materials = [
     year: "2nd Year",
     branch: "IT",
     subject: "Technical Communication",
-    title: "Unit-1",
+    title: "Unit-1 Notes",
     faculty: "Not Available",
     link: "https://drive.google.com/file/d/1VFCGqmEVDKvcbLWyjuJDM4At6puxwdXB/view?usp=drive_link"
   },
@@ -212,7 +212,7 @@ const materials = [
     year: "2nd Year",
     branch: "IT",
     subject: "Technical Communication",
-    title: "Unit-2",
+    title: "Unit-2 Notes",
     faculty: "Not Available",
     link: "https://drive.google.com/file/d/1K5UOi_wOaNVuzL67JbU6BR1Iuc4vOhtD/view?usp=drive_link"
   },
@@ -220,7 +220,7 @@ const materials = [
     year: "2nd Year",
     branch: "IT",
     subject: "Technical Communication",
-    title: "Unit-3",
+    title: "Unit-3 Notes",
     faculty: "Not Available",
     link: "https://drive.google.com/file/d/1p9TVlJUq0a4TWhDM1eWOWhnyOE7jh779/view?usp=drive_link"
   },
@@ -228,7 +228,7 @@ const materials = [
     year: "2nd Year",
     branch: "IT",
     subject: "Technical Communication",
-    title: "Unit-4",
+    title: "Unit-4 Notes",
     faculty: "Not Available",
     link: "https://drive.google.com/file/d/1t9wDJZGqdv0yrrJ1OmaC2Vip33fImQoP/view?usp=sharing"
 
@@ -238,11 +238,46 @@ const materials = [
     year: "2nd Year",
     branch: "IT",
     subject: "Technical Communication",
-    title: "Unit-5",
+    title: "Unit-5 Notes",
     faculty: "Not Available",
     link : "https://drive.google.com/file/d/1VdThvfKpSrs5ydeojCJk-MEuujipFkjw/view?usp=sharing"
 
   },
+  {
+    year: "2nd Year",
+    branch: "IT",
+    subject: "Technical Communication",
+    title: "Unit-1 PPT",
+    faculty: "Not Available",
+    link: "https://drive.google.com/file/d/1OCiESUUW_WyFF8pscrgkMMktmtOKiGmQ/view?usp=sharing"
+  },
+  {
+    year: "2nd Year",
+    branch: "IT",
+    subject: "Technical Communication",
+    title: "Unit-2 PPT ",
+    faculty: "Not Available",
+    link: "https://drive.google.com/file/d/1OCiESUUW_WyFF8pscrgkMMktmtOKiGmQ/view?usp=sharing"
+  },
+  {
+    year: "2nd Year",
+    branch: "IT",
+    subject: "Technical Communication",
+    title: "Unit-3 PPT",
+    faculty: "Not Available",
+    link: "https://drive.google.com/file/d/1OCiESUUW_WyFF8pscrgkMMktmtOKiGmQ/view?usp=sharing"
+  },
+  {
+    year: "2nd Year",
+    branch: "IT",
+    subject: "Technical Communication",
+    title: "Unit-4 PPT",
+    faculty: "Not Available",
+    link: "https://drive.google.com/file/d/1OCiESUUW_WyFF8pscrgkMMktmtOKiGmQ/view?usp=sharing"
+
+
+  },
+  
 
 ];
 
