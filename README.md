@@ -4,7 +4,7 @@ This is a simple, interactive website for students to **access study materials**
 
 Users can filter content by:
 
-- ✅ College Year (1st to 4th Year)
+- ✅ College Year (1st to 3rd Year)
 - ✅ Branch (CSE, ECE, MECH, CIVIL, etc.)
 - ✅ Subject (DBMS, Physics, etc.)
 
